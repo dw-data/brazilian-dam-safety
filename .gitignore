@@ -1,4 +1,4 @@
-### Big files and/or secondary datasets
+### Big files and/or secondary datasets ###
 data/brazil/censo/*
 data/brazil/grade/*
 data/ghs/*
@@ -6,11 +6,12 @@ data/exported/*
 data/dam-failures/*
 data/goodd-scientific/*
 data/grand/*
+data/fhred/*
 
-### Documentation files
+### Documentation files ### 
 *.pdf
 
-### Testing notebook
+### Testing notebook ###
 sandbox.ipynb
 
 ### JupyterNotebooks ###
