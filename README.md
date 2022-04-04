@@ -14,6 +14,8 @@ Additionally, the article also relied on data compiled by the researchers Marian
 
 Most of the maps used in the analysis and in the data visualizations were obtained through [geobr](https://github.com/ipeaGIT/geobr), a geographical package mantained by the Institute of Applied Economic Research (IPEA).
 
+The population estimates, used to calculate the ratio of people living near dangerous dams in each city, state and region of the country, were downloaded from [this data repository](https://basedosdados.org/dataset/br-ibge-populacao) mantained by Base dos Dados, a non-profit organization that cleans and offers easier access to Brazilian public datasets.
+
 ## Methodology 
 
  The first step in the data analysis was to define and identify what a "dangerous dam" is. To do so, we selected all the dams that had, simultaneously, a high risk and a high potential damage classification in the SNISB dataset. 
@@ -39,6 +41,7 @@ Since most of the data files used in this analysis are too large, they weren't p
 The `code` directory is divided in four different subdirectories. In the subdirectory `data-prep`, you can find the scripts that were used to clean, concatenate and convert the formats of the source datasets. The files produced there are read by the scripts in `analysis`, which outline the main findings of the story. In `viz`, you can find the scripts that generated basic data visualizations which were later added in Adobe Illustrator.
 
 The `docs` directory contain PDF files with documents produced by the Brazilian Water Agency (ANA), which were also used as sources for this story. It also contains the full text of an article by Mariando Andrade da Silva and Eliane Lima e Silva, Brazilian researchers which offered an outline of the health risks posed by the dams in the country, and, most importantly for this piece, a summary of the 19 largest dam disasters that happened in Brazil from 1986 to 2019.
+
 
 
 
